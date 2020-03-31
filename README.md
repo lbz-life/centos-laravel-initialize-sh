@@ -12,8 +12,7 @@ git clone https://github.com/laravel/laravel.git
 composer install
 ```
 
-3.
-Run custom initialization script:
+3. Run custom initialization script:
 ```
 cd /var/www/your-project
 bash ./initialize.sh
