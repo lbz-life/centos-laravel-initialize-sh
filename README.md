@@ -7,9 +7,11 @@ Running
 cd /var/www/your-project
 . permissions.sh
 ```
+
 Database
 ------------
 Update your db connections parameters in `.env`
+
 Migrate
 ------------
 Run `php artisan migrate` to migrate tables
