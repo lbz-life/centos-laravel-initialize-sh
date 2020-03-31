@@ -5,6 +5,12 @@ set -e
 # set root path
 path=$(echo $(pwd))
 
+# create .env
+cp .env.example .env
+
+# generate key
+php artisan key:generate
+
 # give apache ownership
 chown -R apache:apache ${path}
 echo "Chown set"
@@ -23,10 +29,7 @@ chmod -R ug+rwx ${path}/storage ${path}/bootstrap/cache
 echo "Permissions set for storage and bootstrap/cahce directories"
 
 # set selinux permissions
-#semanage fcontext -a -t httpd_sys_rw_content_t "${path}/storage(/.*)?"
-#semanage fcontext -a -t httpd_sys_rw_content_t "${path}/bootstrap/cache(/.*)?"
-#restorecon -Rv /var/www/
-chcon -R -t httpd_sys_rw_content_t /var/www/laravel/storage
+chcon -R -t httpd_sys_rw_content_t ${path}/storage
 echo "Selinux permissions set"
 
-echo "Permission process complete"
+echo "Initialization process complete - don't forget to update .env with the correct db parameters"
