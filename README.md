@@ -35,3 +35,6 @@ public function boot()
     Schema::defaultStringLength(191);
 }
 ```
+
+# References
+https://tecadmin.net/install-laravel-framework-on-centos/
