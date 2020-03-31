@@ -7,7 +7,7 @@ Running
 1. 
 ```
 cd /var/www/your-project
-. permissions.sh
+bash ./initialize.sh
 ```
 2. Update your db connections parameters in `.env`
 
