@@ -3,6 +3,10 @@ Simple bash script that inititalizes and sets correct permissions for a new proj
 
 Running
 ------------
+1. Create new laravel project:
+```
+git clone https://github.com/laravel/laravel.git
+```
 
 1. 
 ```
