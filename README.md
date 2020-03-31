@@ -1,5 +1,5 @@
 # Description
-Simple bash script that sets correct permissions for a new project.
+Simple bash script that inititalizes and sets correct permissions for a new project.
 
 Running
 ------------
