@@ -32,4 +32,4 @@ echo "Permissions set for storage and bootstrap/cahce directories"
 chcon -R -t httpd_sys_rw_content_t ${path}/storage
 echo "Selinux permissions set"
 
-echo "Initialization process complete - don't forget to update .env with the correct db parameters"
+echo "Initialization process complete - don't forget to update .env with the correct db parameters and migrate"
