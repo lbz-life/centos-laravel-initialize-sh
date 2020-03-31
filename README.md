@@ -3,15 +3,12 @@ Simple bash script that sets correct permissions for a new project.
 
 Running
 ------------
+
+1. 
 ```
 cd /var/www/your-project
 . permissions.sh
 ```
+2. Update your db connections parameters in `.env`
 
-Database
-------------
-Update your db connections parameters in `.env`
-
-Migrate
-------------
-Run `php artisan migrate` to migrate tables
+3. Run `php artisan migrate` to migrate tables
