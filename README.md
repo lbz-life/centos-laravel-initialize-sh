@@ -1,4 +1,5 @@
-# Description
+Description
+------------
 Simple bash script that inititalizes and sets correct permissions for a new project.
 
 Running
@@ -21,7 +22,8 @@ bash ./initialize.sh
 
 5. Run `php artisan migrate` to migrate tables
 
-# Notes
+Notes
+------------
 If you get the following error when migrating:
 ```
 SQLSTATE[42000]: Syntax error or access violation: 1071 Specified key was too long; max key length is 767 bytes (SQL: alter table 'users' add unique 'users_email_unique'('email'))
@@ -36,6 +38,7 @@ public function boot()
 }
 ```
 
-# References
+References
+------------
 * https://tecadmin.net/install-laravel-framework-on-centos/
 * https://tecadmin.net/laravel-file-permissions/
