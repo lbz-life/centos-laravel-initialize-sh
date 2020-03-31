@@ -1,4 +1,4 @@
-# centos-permissions-sh
+# centos-laravel-permissions-sh
 Simple bash script that sets correct permissions for a new project.
 
 Running
