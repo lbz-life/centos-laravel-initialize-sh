@@ -7,6 +7,10 @@ Running
 ```
 git clone https://github.com/laravel/laravel.git
 ```
+2. Install laravel files:
+```
+composer install
+```
 
 1. 
 ```
