@@ -38,3 +38,4 @@ public function boot()
 
 # References
 https://tecadmin.net/install-laravel-framework-on-centos/
+https://tecadmin.net/laravel-file-permissions/
