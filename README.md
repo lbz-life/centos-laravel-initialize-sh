@@ -12,14 +12,15 @@ git clone https://github.com/laravel/laravel.git
 composer install
 ```
 
-1. 
+3.
+Run custom initialization script:
 ```
 cd /var/www/your-project
 bash ./initialize.sh
 ```
-2. Update your db connections parameters in `.env`
+4. Update your db connections parameters in `.env`
 
-3. Run `php artisan migrate` to migrate tables
+5. Run `php artisan migrate` to migrate tables
 
 # Notes
 If you get the following error:
