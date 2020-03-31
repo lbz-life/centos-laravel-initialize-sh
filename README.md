@@ -2,7 +2,7 @@ Description
 ------------
 Simple bash script that inititalizes and sets correct permissions for a new project.
 
-Running
+Instructions
 ------------
 1. Create new laravel project:
 ```
